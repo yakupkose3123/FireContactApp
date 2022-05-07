@@ -2,8 +2,8 @@ import {toast} from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
 
 const Toastify=(msg)=>{
-toast.success(msg, {
-    position: "bottom-center",
+toast.info(msg, {
+    position: "top-center",
     autoClose: 4000,
     hideProgressBar: false,
     closeOnClick: true,
