@@ -6,7 +6,6 @@ import {
   TableHead,
   TableRow,
   TableBody,
-  rows,
   Paper
 } from "@mui/material";
 import { useFetch,DeleteUser } from "../../utils/functions";
